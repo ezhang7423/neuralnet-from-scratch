@@ -13,7 +13,7 @@ To train the model, we evaluate its performance by calculating the difference (e
 
 ## implementation 
 
-We use numpy only, as this is "neural net from scratch". First, preprocessor.ipynb calculates the tf-idf of each sample by the  necessary components into a corresponding .txt file, and then outputting the resulting feature vectors into a binary numpy file, which effectively saves the feature vector into a file. Next, main.ipynb takes that vector and implements stochastic gradient descent, with the helper functions of the gradient of the loss and predicting a label. Finally, it uses some nice visualization and output helper functions to output results.
+We use numpy only, as this is "neural net from scratch". First, preprocessor.ipynb calculates the tf-idf of each sample by calculating the  necessary components and saving in a corresponding .txt file. It then outputs the resulting feature vectors (a matrix at this point) into a binary numpy file. Next, main.ipynb takes that vector and implements stochastic gradient descent, with the helper functions of the gradient of the loss and predicting a label. Finally, it uses some nice visualization and output helper functions to output results.
 
 
 
