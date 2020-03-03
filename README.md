@@ -9,8 +9,8 @@ The neural network is simply a single layer (theta) for logistic regression. It 
 
 ## implementation 
 
-First, preprocessor.ipynb calculates the tf-idf of each sample by the  necessary components into a corresponding .txt file, and then outputting the resulting feature vectors into a binary numpy file, which effectively saves the feature vector into a file. Next, main.ipynb takes that vector and implements stochastic gradient descent. It does this with the helper functions of the gradient of the loss and predicting a label. Finally, it uses some nice visualization and output helper functions to output results.
+First, preprocessor.ipynb calculates the tf-idf of each sample by the  necessary components into a corresponding .txt file, and then outputting the resulting feature vectors into a binary numpy file, which effectively saves the feature vector into a file. Next, main.ipynb takes that vector and implements stochastic gradient descent, with the helper functions of the gradient of the loss and predicting a label. Finally, it uses some nice visualization and output helper functions to output results.
 
 
-with the cross entropy as the loss function. A
+
 ![results of experiments](https://i.imgur.com/W2ptpSa.png "Results of this project")
