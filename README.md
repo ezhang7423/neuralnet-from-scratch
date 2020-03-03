@@ -1,7 +1,7 @@
 # neuralnet-from-scratch
 
 ## motivation
-This project was meant to start understanding machine learning from a theoretical standpoint, rather than from a practitioner's one. It was implemented over four weeks, and achieves around 85% accuracy on classifying an author based on a text sample(a short story).
+This project was meant to start understanding machine learning from a theoretical standpoint, rather than from a practitioner's one. It was implemented over four weeks, and achieves around 85% accuracy on classifying an author based on a text sample (a short story).
 
 ## theory
 
